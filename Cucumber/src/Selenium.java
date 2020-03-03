@@ -8,7 +8,7 @@ public class Selenium {
 	
 	WebDriver driver = new ChromeDriver();
 	
-	driver.get("https://www.yahoo.com");
+	driver.manage().window().maximize();
 	}
 
 }
